@@ -1,0 +1,14 @@
+---
+all:
+  children:
+    EastRegion:
+      hosts:
+        TESTNW01:
+    WestRegion:
+      hosts:
+        linux-server01:
+    AWS:
+      hosts:
+        linux-server01:
+    Azure:
+    GCP:
