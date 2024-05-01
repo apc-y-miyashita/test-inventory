@@ -1,0 +1,14 @@
+---
+plugin: servicenow.itsm.now
+strict: true
+instance:
+  # host: 
+  grant_type: password
+  # username: 
+  # password: 
+table: cmdb_ci_hardware
+inventory_hostname_source: name
+columns:
+  - name
+  - ip_address
+leading_separator: false
